@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c3edc" binding="fullNamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="250" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="47f10" class="javax.swing.JLabel" binding="surnameLable">
+            <constraints/>
+            <properties>
+              <text value="Surname"/>
+            </properties>
+          </component>
+          <component id="979be" class="javax.swing.JTextField" binding="surnameField">
+            <constraints/>
+            <properties>
+              <minimumSize width="64" height="15"/>
+              <name value=""/>
+              <preferredSize width="140" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d1eb8" class="javax.swing.JLabel" binding="nameLable">
+            <constraints/>
+            <properties>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="93c18" class="javax.swing.JTextField" binding="nameField">
+            <constraints/>
+            <properties>
+              <preferredSize width="140" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="14a4a" class="javax.swing.JLabel" binding="patronymicLable">
+            <constraints/>
+            <properties>
+              <text value="Patronymic"/>
+            </properties>
+          </component>
+          <component id="3b6b6" class="javax.swing.JTextField" binding="patronymicField">
+            <constraints/>
+            <properties>
+              <preferredSize width="140" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fadc1" binding="SNPPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <name value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a200d" class="javax.swing.JLabel" binding="snpLable">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="S.N.P."/>
+            </properties>
+          </component>
+          <grid id="54002" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9ea95" class="javax.swing.JTextField" binding="snpField">
+                <constraints/>
+                <properties>
+                  <minimumSize width="120" height="30"/>
+                  <preferredSize width="140" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="dfea3" binding="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a30a2" class="javax.swing.JButton" binding="button">
+            <constraints/>
+            <properties>
+              <text value="collapse"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
